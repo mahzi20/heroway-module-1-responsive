@@ -1,0 +1,68 @@
+.page {
+    margin: 36px auto;
+    width: 960px;
+    display: table;
+}
+.blog {
+    margin: 0 auto 53px;
+    width: 900px;
+}
+.blog .main {
+    float: left;
+    width: 566px;
+}
+
+.blog .other {
+    float: right;
+    width: 311px;
+    padding-left: 20px;
+}
+
+.blog .other ul {
+    list-style: none;
+    padding: 0;
+}
+.blog .other ul li {
+    padding: 20px 0;
+    margin: 5px 0;
+    border-top: 1px solid #ccc;
+}
+.blog .other h3 {
+    margin-bottom: 20px;
+}
+.blog .other p {
+    margin-bottom: 20px;
+}
+
+.blog .main .headline h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog .main .headline h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.blog .main .author {
+    padding: 20px 0;
+    margin: 5px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.blog .main .author .name {
+    font-weight: 900;
+}
+
+.blog .main .author .icons {
+    float: right;
+}
+.blog .main .article .image {
+    width: 300px;
+    height: auto;
+}
+
+.blog .main p {
+    padding: 10px 0 30px;
+    margin: 0;
+}
