@@ -1,11 +1,11 @@
 .page {
     margin: 36px auto;
     width: 960px;
-    display: table;
 }
 .blog {
     margin: 0 auto 53px;
     width: 900px;
+    overflow: auto;
 }
 .blog .main {
     float: left;
