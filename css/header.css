@@ -23,8 +23,8 @@ header.header::before {
     z-index: 5;
 }
 
-header.header .headline {
-    width: 900px;
+.header .headline {
+    width: 100%;
     height: 100px;
 
     position: relative;
@@ -32,4 +32,12 @@ header.header .headline {
     
     margin: 0 auto;
     padding: 48px;
+}
+
+.header > .headline > h1 {
+    font-size: 2rem;
+}
+
+.header > .headline > h3 {
+    font-size: 1.125rem;
 }
